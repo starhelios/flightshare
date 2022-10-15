@@ -1,0 +1,157 @@
+.map-container {
+  height: 500px;
+  text-align: center;
+}
+
+.offcanvas {
+  width: 600px !important;
+}
+.card-data {
+  /* padding-left: 30px !important; */
+}
+.booking-card {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.home-container {
+  max-width: 800px;
+  margin: 0 auto 30px;
+  padding: 0 20px;
+}
+.profile-modal .offcanvas-body {
+  padding-top: 0;
+}
+.profile-modal .offcanvas-body img {
+  width: 100%;
+}
+.booking-card .card {
+  width: 100%;
+}
+.navbar .navbar-toggler {
+  padding: 0;
+  border: 0;
+}
+
+.mobile-home-card .mobile-col {
+  width: 47% !important;
+}
+.row.my-row {
+  flex-wrap: nowrap;
+}
+.mobile-home-button {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+
+@media (max-width: 1399.98px){
+  .booking-card {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1199.98px){
+  .booking-card {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1023px){
+  .booking-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 991px){
+  .map-container {
+    height: 400px;
+  }
+}
+
+@media (max-width: 767px){
+  .map-container {
+    height: 300px;
+  }
+  .profile-detail-img img {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 574.98px){
+  .profile-modal .offcanvas-body img {
+    max-width: 200px;
+    margin: 0 auto 25px;
+  }
+  .profile-modal .profile-img {
+    text-align: center;
+  }
+  .profile-modal .card-data {
+    text-align: center;
+  }
+  .booking-card {
+    width: 100%;
+  }
+  .booking-card img {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto 20px;
+  }
+  .booking-card .card .card-text {
+    text-align: center;
+  }
+  .profile-detail-img img {
+    width: 100% !important;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 399px){
+  .mobile-home-card .mobile-col {
+    width: 40% !important;
+    padding-left: 0 !important;
+}
+.mobile-home-card .mobile-col h4{
+  font-size: 16px;
+  margin: 0;
+}
+.mobile-home-card .mobile-col h7{
+  font-size: 14px;
+}
+.mobile-home-button .btn {
+  padding: 3px 6px;
+  font-size: 14px;
+}
+.mobile-home-button {
+  padding-left: 0 !important;
+}
+}
+.mobile-home-card {
+  text-align: left;
+}
+
+.mobile-home-card > row* {
+  width: auto !important;
+}
+
+.mobile-col > row {
+  width: auto !important;
+}
+
+.my-row>* {
+  width: auto !important;
+}
